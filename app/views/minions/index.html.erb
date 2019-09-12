@@ -17,7 +17,7 @@
       <tr>
         <td><%= minion.name %></td>
         <td><%= minion.description %></td>
-        <td><%= minion.super_villain_id %></td>
+        <td><%= minion.super_villain.name %></td>
         <td><%= link_to 'Show', minion %></td>
         <td><%= link_to 'Edit', edit_minion_path(minion) %></td>
         <td><%= link_to 'Destroy', minion, method: :delete, data: { confirm: 'Are you sure?' } %></td>

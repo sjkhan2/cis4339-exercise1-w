@@ -10,6 +10,11 @@
   </head>
 
   <body>
+  <div class="header">
+  <h1>Super Villain Manager</h1>
+  <%= link_to "Villains", super_villains_path %>|
+  <%= link_to "Minions", minions_path %>
+  </div>
     <%= yield %>
   </body>
 </html>
